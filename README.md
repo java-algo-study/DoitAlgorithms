@@ -10,5 +10,5 @@
 
 ### Branch Policy
 - `main` 브랜치는 README 용으로.
-- 각자의 브랜치에서 작업.
+- 각자의 브랜치에서 작업. (Example : https://github.com/java-algo-study/Do-it-algorithm-coding-test/tree/example)
   
