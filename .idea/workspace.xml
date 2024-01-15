@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186d4844-ac1f-4a41-b3c3-8a28f63a55cd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_01_DataStructure/_02_AverageManipulate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_01_DataStructure/_03_RangeOfSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_01_DataStructure/_04_RangeOfSum_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_01_DataStructure/_05_Remainders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_01_DataStructure/_06_SumNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_01_DataStructure/_07_주몽.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_01_DataStructure/_08_BestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_01_DataStructure/_09_SlidingWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DoItAlgoritms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01_DataStructure/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_01_DataStructure/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01_DataStructure/_01_AddResult.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +38,9 @@
   "associatedIndex": 6
 }]]></component>
   <component name="ProjectId" id="2az46dWcjxLBcPJWpbdZlMCqNFb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -57,7 +66,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application._01_DataStructure.HelloWorld">
+  <component name="RunManager" selected="Application._09_SlidingWindow">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main._01_DataStructure.HelloWorld" />
       <module name="DoItAlgoritms" />
@@ -84,8 +93,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_01_DataStructure.HelloWorld" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01_DataStructure.HelloWorld" />
+    <configuration name="_01_AddResult" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_DataStructure._01_AddResult" />
+      <module name="DoItAlgoritms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_01_DataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_02_AverageManipulate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_DataStructure._02_AverageManipulate" />
+      <module name="DoItAlgoritms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_01_DataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_09_SlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_DataStructure._09_SlidingWindow" />
       <module name="DoItAlgoritms" />
       <extension name="coverage">
         <pattern>
@@ -99,6 +134,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._09_SlidingWindow" />
+        <item itemvalue="Application._02_AverageManipulate" />
         <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.src.HelloWorld" />
       </list>
@@ -112,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705307901133</updated>
-      <workItem from="1705307902298" duration="3403000" />
+      <workItem from="1705307902298" duration="6092000" />
     </task>
     <servers />
   </component>
