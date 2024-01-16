@@ -30,25 +30,33 @@ public class _08_BestNumber {
 
     // 주어진 수가 다른 두 수의 합으로 표현될 수 있는지 확인하는 메소드
     private static boolean isGoodNumber(long[] numbers, int index) {
-        int left = 0;
-        int right = numbers.length - 1;
+        int start = 0;
+        int end = numbers.length - 1;
         long target = numbers[index];
 
-        while (left < right) {
-            // 현재 인덱스의 수는 제외하고 계산
-            if (left == index) left++;
-            else if (right == index) right--;
-            else {
-                long sum = numbers[left] + numbers[right];
+        while (start < end) {
+            // 투포인터가 만나지 않는 이상 계속 루프진행
+            if (start == index) start++;
+            else if (end == index) end--;
+            //현재 인덱스 제외: start 또는 end가 index와 같으면,
+                // 즉 현재 target을 가리키고 있다면, 해당 포인터를 이동시켜 target을 계산에서 제외합니다.
 
-                if (sum == target) return true;
-                else if (sum < target) left++;
-                else right--;
+            else {
+                long sum = numbers[start] + numbers[end];
+
+                if (sum == target) {
+                    return true;
+                } else if (sum < target) {
+                    start++;
+                } else {
+                    end--;
+                }
             }
         }
 
         return false;
     }
 }
+
 
 
