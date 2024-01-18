@@ -9,7 +9,7 @@ import java.util.Scanner;
 //        입력:
 //        첫 번째 줄에 노드의 개수 N(1 <= N <= 100)과 에지의 개수 M(1 <= M <= 100), 시작 노드 번호 S가 주어진다.
 //        두 번째 줄부터 M개의 줄에 걸쳐 에지가 연결하는 두 노드 u와 v가 주어진다(1 <= u, v <= N).
-public class _0DFS_연습문제 {
+public class _23_연습문제 {
     private static void dfs(LinkedList<Integer>[] graph , boolean visited [] , int node) {
         visited[node] = true;
         System.out.println(node + "");
