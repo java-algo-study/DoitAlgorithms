@@ -5,39 +5,36 @@ import java.util.Stack;
 
 public class _11_Stack {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int[] numbers = new int[N];
 
-
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        int[] sequence = new int[n];
-
-        for (int i = 0; i < n; ++i) {
-            sequence[i] = scanner.nextInt();
+        for (int i = 0; i < N; i++) {
+            numbers[i] = sc.nextInt();
         }
-
-        Stack<Integer> stack = new Stack();
-        StringBuilder sb = new StringBuilder();
+        Stack<Integer> stack = new Stack<>();
+        StringBuilder bf = new StringBuilder();
         int num = 1;
-
-        for (int i = 0; i < n; ++i) {
-            int current = sequence[i];
-
-            while (num <= current) {
-                stack.push(num++);
-                sb.append("+\n");
+        boolean result = true;
+        for (int i = 0; i < numbers.length; i++) {
+            int su = numbers[i];
+            if (su >= num) {
+                while (su >= num) {
+                    stack.push(num++);
+                    bf.append("+\n");
+                }
+                stack.pop();
+                bf.append("-\n");
+            } else {
+                int n = stack.pop();
+                if (n > su) {
+                    System.out.println("NO");
+                    break;
+                } else {
+                    bf.append("-\n");
+                }
             }
-
-            if ((Integer) stack.peek() != current) {
-                System.out.println("NO");
-                return;
-            }
-
-            stack.pop();
-            sb.append("-\n");
         }
-
-        System.out.println(sb.toString());
-        scanner.close();
+        if(result) System.out.println(bf.toString());
     }
 }
-
